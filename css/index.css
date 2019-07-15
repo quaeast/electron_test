@@ -1,0 +1,28 @@
+#content{
+    /*background-color: black;*/
+    background-image: url("../img/bkg_with_logo.png") ;
+    background-size: 100%;
+    width: 100%;
+    height: 428px;
+    overflow: hidden;
+}
+
+
+#begin{
+    margin-top: 200px;
+    text-align: center;
+    width: 240px;
+    font-size: 50px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+#exit{
+    margin-top: 50px;
+    text-align: center;
+    width: 190px;
+    font-size: 40px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
