@@ -1,10 +1,6 @@
 const ipc_share = require('electron').remote.getGlobal('sharedObject');
-
-
-
 const button1 = $('#button1');
 const button2 = $('#button2');
-
 
 function ok_event(){
     const input_string = $('#number_input').val();

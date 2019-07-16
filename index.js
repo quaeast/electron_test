@@ -2,7 +2,7 @@ const { app, BrowserWindow} = require('electron');
 
 
 global.sharedObject = {
-  // someProperty: 'default value'
+  total_number: 'default value'
 }
 
 function createWindow () {
