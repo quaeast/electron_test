@@ -1,10 +1,15 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow} = require('electron');
+
+
+global.sharedObject = {
+  // someProperty: 'default value'
+}
 
 function createWindow () {
   // Create the browser window.
   let win = new BrowserWindow({
-    width: 800,
-    height: 450,
+    width: 1336,
+    height: 768,
     webPreferences: {
       nodeIntegration: true
     }
